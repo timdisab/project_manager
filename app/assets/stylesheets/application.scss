@@ -15,7 +15,7 @@
  */
 
  $light: #F5F5F5;
- $dark: #3498db;
+ $dark: #7f8c8d;
 
 * {
 	box-sizing: border-box;
@@ -64,13 +64,12 @@ body {
 .todo_list_title {
 	text-align: center;
 	font-weight: 700;
-	font-size: 2.5rem;
-	text-transform: uppercase;
-	color: white;
+	font-size: 1.5rem;
+	color: black;
 	margin: 0;
 	a {
 		text-decoration: none;
-		color: white;
+		color: black;
 		transition: all .4s ease-in-out;
 		&:hover {
 			opacity: 0.4;
@@ -126,7 +125,7 @@ body {
 			padding: 1em 0;
 		}
 		i {
-			color: white;
+			color: black;
 			transition: all .4s ease-in-out;
 			&:hover {
 				color: $dark;
@@ -169,10 +168,10 @@ body {
 	display: block;
 	margin: 1.5em auto 0 auto;
 	text-align: center;
-	font-size: 0.8em;
-	color: white;
+	font-size: 1.0em;
+	color: black;
 	a {
-		color: white;
+		color: black;
 	}
 }
 
@@ -184,7 +183,7 @@ label {
 }
 input[type="text"], textarea {
 	width: 100%;
-	margin: .5em 2% 1em 0;
+	margin: 1.5em 3em 1em 0;
 	display: inline-block;
 	outline: none;
 	background: #ffffff;
@@ -206,7 +205,8 @@ input[type="submit"] {
 	display: inline-block;
 	transition: all .4s ease-in-out;
 	cursor: pointer;
-	color: #1a1a1a;
+	color: white;
+  font-size: .90em;
 	&:hover {
 		background: #1a1a1a;
 		color: white;
