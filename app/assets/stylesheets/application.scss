@@ -47,11 +47,15 @@ body {
 	font-weight: 100;
 }
 
+.brand {
+  margin-left: 2.0em;
+}
+
 .container {
 	width: 200%;
 	max-width: 1200px;
 	background: $light;
-	margin: 3em auto 0 auto;
+	margin: 1.5em auto 0 auto;
 	border-radius: 0px;
 	-webkit-box-shadow: 0 0 4px 3px rgba(0,0,0,.3);
 	box-shadow: 0 0 4px 4px rgba(0,0,0,.03);
@@ -168,10 +172,10 @@ body {
 	display: block;
 	margin: 1.5em auto 0 auto;
 	text-align: center;
-	font-size: 1.0em;
+	font-size: 0.9em;
 	color: black;
 	a {
-		color: black;
+		color: #0277BD;
 	}
 }
 
@@ -191,6 +195,7 @@ input[type="text"], textarea {
 	height: 40px;
 	border-radius: 4px;
 	padding: 1em 2em;
+  font-size: 0.6em;
 }
 textarea {
 	height: 200px;
@@ -206,7 +211,7 @@ input[type="submit"] {
 	transition: all .4s ease-in-out;
 	cursor: pointer;
 	color: white;
-  font-size: .90em;
+  font-size: .9em;
 	&:hover {
 		background: #1a1a1a;
 		color: white;

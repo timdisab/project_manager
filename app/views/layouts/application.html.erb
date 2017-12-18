@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ProjectManager</title>
+    <title>ProjectTrack</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= favicon_link_tag 'favicon.ico' %>
 
     <script src="https://use.fontawesome.com/d426de8929.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
   </head>
   <body>
+    <%= link_to image_tag("projecttrack.png"), root_path, class: "brand" %>
     <div class="container">
       <%= yield %>
     </div>
